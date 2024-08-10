@@ -28,4 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // inicio de mi aplicacion
     fetchPosts();
 
+    
+
 })
