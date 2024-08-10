@@ -1,0 +1,21 @@
+//comando git
+
+// inicializar respositorio local con git (solo una vez)
+git init
+
+
+// Cada vez qeu realizo un cambio
+// Añade mis archivos al area de staged
+git add .
+git commit -m "comentario"
+git pull origin nombre_rama
+git push origin nombre_rama
+
+// ver historial de commit 
+git log
+
+//cambiar de rama 
+git checkout nombre_rama
+
+//crear una rama y cambiarme 
+git checkout -b nombre_rama
