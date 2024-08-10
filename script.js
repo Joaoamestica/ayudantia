@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const inicio = (paginaActual - 1) * cantidadPostPorPagina;
         const final = inicio + cantidadPostPorPagina;
         const postsActuales = posts.slice(inicio, final);
-
+        test = 'Esta es una linea de prueba'
         //....
     }
 
